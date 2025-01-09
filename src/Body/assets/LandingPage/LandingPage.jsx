@@ -38,7 +38,7 @@ function LandingPage(){
             <input type="text" name="number" id="number" placeholder="0712345678" />
             <label htmlFor="message">Message</label>
             <textarea name="message" id="message"></textarea>
-            <input type="submit" value="Send Message" />
+            <input type="submit" className={Styles.button} value="Send Message" />
           </form>
         </div>
       </div>
