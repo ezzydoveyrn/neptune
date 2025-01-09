@@ -1,9 +1,12 @@
-import './App.css'
-
+import Header from "./Header/Header.jsx"
+import Footer from "./Footer/Footer.jsx";
+import Body from "./Body/Body.jsx"; 
 function App() {
-  return(
+  return (
     <>
-    <h2>Neptune Connect Cyber</h2>
+      <Header />
+      <Body />
+      <Footer />
     </>
   );
 }
