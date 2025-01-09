@@ -103,7 +103,7 @@
   .header .logo h1 a {
     text-decoration: none;
     color: green;
-    font-size: 18px;
+    font-size: 25px;
     cursor: pointer;
     transition: color 0.3s ease;
   }
@@ -113,30 +113,6 @@
   }
 
   .header .links {
-    flex-grow: 1;
-    max-width: 200px;
-  }
-
-  .header .links nav ul {
-    display: flex;
-    justify-content: space-around;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-
-  .header .links nav ul li {
-    margin: 0 10px;
-  }
-
-  .header .links nav ul li a {
-    text-decoration: none;
-    color: blue;
-    font-size: 10px;
-    transition: color 0.3s ease;
-  }
-
-  .header .links nav ul li a:hover {
-    color: darkblue;
+    display: none;
   }
 }

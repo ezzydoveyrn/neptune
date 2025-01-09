@@ -62,10 +62,11 @@
   }
 
   .footer .socialMediaIcons {
-    font-size: 16px;
+    font-size: 14px;
+    max-width: 200px;
   }
 
   .footer .socialMediaIcons a {
-    font-size: 16px;
+    font-size: 14px;
   }
 }
