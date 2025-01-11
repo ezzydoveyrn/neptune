@@ -1,5 +1,6 @@
 import Styles from "./LandingPage.module.css"
 import NeptuneImage from "../../../assets/lg.png"
+import Documentary from "./Documetary/Documentary.jsx"
 
 function LandingPage(){
   return (
@@ -25,6 +26,7 @@ function LandingPage(){
           science and computer packages courses to help you excel in the digital
           world.
         </div>
+        <Documentary />
       </div>
       <div className={Styles.side2}>
         <div className={Styles.container}>
@@ -33,9 +35,9 @@ function LandingPage(){
             <label htmlFor="name">Name</label>
             <input type="text" name="name" id="name" placeholder="Ezekiel Ogana"/>
             <label htmlFor="email">Email</label>
-            <input type="email" name="email" id="email" placeholder="ezekiel********a@gmail.com"/>
+            <input type="email" name="email" id="email" placeholder="ez********a@gmail.com"/>
             <label htmlFor="number">Phone Number</label>
-            <input type="text" name="number" id="number" placeholder="0712345678" />
+            <input type="text" name="number" id="number" placeholder="eg. 0712345678" />
             <label htmlFor="message">Message</label>
             <textarea name="message" id="message"></textarea>
             <input type="submit" className={Styles.button} value="Send Message" />
